@@ -1,0 +1,1 @@
+export const onBoardingColors = ['#2F80ED', '#26264F', '#EF476F', '#FFC43D']

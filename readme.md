@@ -6,6 +6,8 @@ This is my first react native app built on web3
 
 
 ## <ins>Feautures & Todo</ins>
+
+- [ ]  Custom [scroll animation]  on onboarding screen
 - [ ]  Get the balance of an address
 - [ ]  Interact with contracts
 - [ ]  Listen to events
