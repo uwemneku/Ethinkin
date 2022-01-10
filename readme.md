@@ -7,7 +7,8 @@ This is my first react native app built on web3
 
 ## <ins>Feautures & Todo</ins>
 
-- [ ]  Custom [scroll animation]  on onboarding screen
+- [ ]  Custom [scroll animation](https://github.com/uwemneku/Ethinkin/blob/main/src/screens/onboarding/cards/components/AnimatedCards.tsx
+)  on onboarding screen
 - [ ]  Get the balance of an address
 - [ ]  Interact with contracts
 - [ ]  Listen to events

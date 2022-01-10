@@ -8,9 +8,13 @@ import Animated, {
 } from 'react-native-reanimated';
 
 interface AnimatedCardsProps {
+  /**Index of the card in the scrollView */
   index: number;
+  /**Scroll content offset of the scrollView */
   scrollOffset: Animated.SharedValue<number>;
+  /**Lottie file to be used */
   lottieFile: any;
+  /**Title of the card */
   title: string;
 }
 
@@ -21,6 +25,7 @@ const AnimationContainer = ({
   title,
 }: AnimatedCardsProps) => {
   const {width} = useWindowDimensions();
+
   const animatedContainerStyle = useAnimatedStyle(() => ({
     zIndex: interpolate(
       scrollOffset.value,
